@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* CABEÇALHO */
 header{
     display: flex;
     justify-content: center;
@@ -28,18 +29,23 @@ header{
     margin-left: 60px;
 }
 .linha{
-    height: 1px;
+    height: 2px;
+    background-color: #ffffff25;
     width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0.192);
+    border: none;
     margin-left: 200px;
-    
     z-index: 1;
     position: absolute;
 }
 .menu{
+    width: 800px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #ffffff;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* efeito glassmorphism*/
     background: rgba( 255, 255, 255, 0.01 );
     backdrop-filter: blur( 30px );
@@ -47,24 +53,28 @@ header{
 }
 nav ul li{
     list-style-type: none;
-    margin-left: 50px;
+    text-decoration: none;
 }
 nav ul{
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 70px;
-    width: 800px;
-
+    justify-content:space-evenly;
+    width: 80%;
 }
 .bold{
     font-weight: bold;
 }
-/*.fundo-embacado{  efeito glassmorphism
-    height: 50px;
-    width: 800px;
-    background: rgba( 255, 255, 255, 0 );
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 5px );
-    margin-top: 20px;
-}*/
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+nav #activeHome,  nav a:hover{
+    border-bottom: 4px solid #ffffff;
+}
+
+
+/* FIM CABEÇALHO */
+
