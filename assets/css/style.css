@@ -145,7 +145,7 @@ section{
     }
     #body-home{
         background-image: url('../images/home/background-home-tablet.jpg');
-        background-size: 800px 780px;
+        background-size: 800px 782px;
     }
     section{
         flex-direction: column;
