@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 /* INICIO CSS PAGINA HOME*/
 #body-home{
     background-image: url('../images/home/background-home-desktop.jpg');
@@ -17,6 +16,7 @@ header{
     height: 100%;
     display: flex;
     justify-content: center;
+    border: none;
 }
 .top{
     width: 100%;
@@ -24,6 +24,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: none;
 }
 .top-left,
 .top-right{
@@ -93,7 +94,7 @@ section{
 .content-left,.content-right{
     flex: 2;
 }
-.subtitle-home{
+.subtitle-content-home{
     color: #d1d4e7;
     margin-top: 100px;
     margin-left: 150px;
@@ -101,7 +102,7 @@ section{
     font-size: 18px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.title-home{
+.title-content-home{
     color: #fafaf8;
     margin-left: 150px;
     text-transform: uppercase;
@@ -138,30 +139,53 @@ section{
 /* FIM CONTENT HOME */
 
 /* INICIO MODO TABLET PAGINA HOME */
+@media (max-width: 1290px){
+    .line-menu{
+        display: none;
+    }
+}
 
-@media (max-width: 800px){
+@media (max-width: 1024px){
     .line-menu{
         display: none;
     }
     #body-home{
         background-image: url('../images/home/background-home-tablet.jpg');
-        background-size: 800px 782px;
+        background-size: 1024px 768px;
     }
     section{
         flex-direction: column;
     }
     .menu{
-        width: 400px;
-        font-size: 10px;
+        width: 550px;
+        font-size: 15px;
         height: 100px;
     }
     .top{
-        height: 0px;
-       margin-top: 0px;
-       
+        height: 100px;
     }
     .btn, .active{
         height: 100px;
+    }
+    .subtitle-content-home{
+        margin-top: 50px;
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .content-left,.content-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        flex-direction: column;
+    }
+    .title-content-home{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .text-content-home{
+        margin-left: 0px;
+        margin-top: 50px;
     }
     
 }
