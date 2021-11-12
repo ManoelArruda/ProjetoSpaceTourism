@@ -4,13 +4,17 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+/* INICIO CSS PAGINA HOME*/
+#body-home{
     background-image: url('../images/home/background-home-desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 /* CABEÇALHO */
 header{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -79,7 +83,7 @@ nav ul{
 }
 /* FIM CABEÇALHO */
 
-/* INICIO CONTENT */
+/* INICIO CONTENT HOME */
 
 section{
     height: 100%;
@@ -131,3 +135,73 @@ section{
     margin-top: 200px;
     margin-left: 220px;
 }
+/* FIM CONTENT HOME */
+
+/* INICIO MODO TABLET PAGINA HOME */
+
+@media (max-width: 800px){
+    .line-menu{
+        display: none;
+    }
+    #body-home{
+        background-image: url('../images/home/background-home-tablet.jpg');
+        background-size: 800px 768px;
+    }
+    section{
+        flex-direction: column;
+    }
+    .menu{
+        width: 400px;
+        font-size: 10px;
+        height: 100px;
+    }
+    .top{
+        height: 0px;
+       margin-top: 0px;
+       
+    }
+    .btn, .active{
+        height: 100px;
+    }
+    
+}
+
+/* FIM MODO TABLET PAGINA HOME*/
+
+/* FIM CSS PAGINA HOME*/
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* INICIO CSS PAGINA DESTINATION*/
+
+#body-destination{
+    background-image: url('../images/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FIM CSS PAGINA DESTINATION*/
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* INICIO CSS PAGINA CREW */
+
+#body-crew{
+    background-image: url('../images/crew/background-crew-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FIM CSS PAGINA CREW */
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* INICIO CSS PAGINA TECHNOLOGY*/
+
+#body-technology{
+    background-image: url('../images/technology/background-technology-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FIM CSS PAGINA TECHNOLOGY*/
