@@ -293,13 +293,13 @@ section{
         margin-right: 50px;
         display: none;
         position: absolute;
-        width: 100%;
+
     }
     nav ul li{
         margin-right: 0;
         margin-left: 0;
-        background: red;
-        width: 500px;
+        background: rgb(31, 30, 30);
+        width: 400px;
     }
     .btn, .active{
         height: 45px;
