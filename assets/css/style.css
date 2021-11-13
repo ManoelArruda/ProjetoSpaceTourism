@@ -144,6 +144,12 @@ section{
 /* FIM CONTENT HOME */
 
 /* INICIO MODO TABLET PAGINA HOME */
+@media screen and (min-width: 671px)  {
+    .menu-mobile{
+        display: none;
+    }
+    
+}
 @media screen and (max-width: 1290px){
     .line-menu{
         width:  350px;
@@ -179,13 +185,11 @@ section{
         display: none;
     }
 }
-
 @media screen and (max-width: 935px){
     .line-menu{
         display: none;
     }
     #body-home{
-        
         background-image: url('../images/home/background-home-tablet.jpg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -229,13 +233,52 @@ section{
         width: 360px;
     }
     .circle-content-home{
-        margin-top: 100px;
+        margin-top: 85px;
         margin-left: 0;
+        width: 180px;
+        height: 180px;
+        border-radius: 90px;
+    }
+}
+
+/* FIM MODO TABLET PAGINA HOME*/
+
+/* INICIO MODO MOBILE PAGINA HOME*/
+
+@media screen and (min-width: 300px) and (max-width: 670px)  {
+    #body-home{
+        background-image: url('../images/home/background-home-mobile.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-mobile{
+        margin-right: 30px;
+    }
+    .subtitle-content-home{
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 10px;
+    }
+    .title-content-home{
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 80px;
+    }
+    .text-content-home{
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: center;
+        width: 360px;
+        line-height: 30px;
     }
     
 }
 
-/* FIM MODO TABLET PAGINA HOME*/
+/* FIM MODO MOBILE PAGINA HOME*/
 
 /* FIM CSS PAGINA HOME*/
 
