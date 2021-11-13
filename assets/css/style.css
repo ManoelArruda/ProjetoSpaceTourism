@@ -62,15 +62,17 @@ header{
     backdrop-filter: blur( 30px );
     -webkit-backdrop-filter: blur( 30px );
 }
-nav ul li{
+nav ul li{    
     list-style-type: none;
     text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 nav ul{
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    width: 80%;
+    justify-content:space-between;
+    width: 100%;
 }
 .bold{
     font-weight: bold;
@@ -86,6 +88,16 @@ nav ul{
 }
 .active, .btn:hover{
     border-bottom: 4px solid #ffffff;
+}
+.menu-mobile{
+    width: 40px;
+    height: 40px;
+}
+.line-menu-mobile{
+    height: 3px;
+    background-color: #d1d4e7;;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 /* FIM CABEÇALHO */
 
@@ -251,12 +263,6 @@ section{
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
-    .menu{
-        display: none;
-    }
-    .menu-mobile{
-        margin-right: 30px;
-    }
     .subtitle-content-home{
         margin-top: 0;
         margin-left: 0;
@@ -275,7 +281,32 @@ section{
         width: 360px;
         line-height: 30px;
     }
-    
+    .menu{
+        width: 0;
+        height: 0;
+
+        /* efeito glassmorphism*/
+        background: 0;
+        backdrop-filter: 0;
+        -webkit-backdrop-filter: 0;
+    }
+    nav{
+        margin-right: 130px;
+    }
+    nav ul{    
+        flex-direction: column;
+        margin-right: 50px;
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    nav ul li{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .btn, .active{
+        height: 45px;
+    }
 }
 
 /* FIM MODO MOBILE PAGINA HOME*/
