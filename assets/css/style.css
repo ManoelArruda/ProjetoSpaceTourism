@@ -284,11 +284,6 @@ section{
     .menu{
         width: 0;
         height: 0;
-
-        /* efeito glassmorphism*/
-        background: 0;
-        backdrop-filter: 0;
-        -webkit-backdrop-filter: 0;
     }
     nav{
         margin-right: 130px;
@@ -303,6 +298,8 @@ section{
     nav ul li{
         margin-right: 0;
         margin-left: 0;
+        background: red;
+        width: 500px;
     }
     .btn, .active{
         height: 45px;
