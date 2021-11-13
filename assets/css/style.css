@@ -146,18 +146,49 @@ section{
 /* INICIO MODO TABLET PAGINA HOME */
 @media screen and (max-width: 1290px){
     .line-menu{
+        width:  350px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .line-menu{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1190px){
+    .line-menu{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1140px){
+    .line-menu{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 1090px){
+    .line-menu{
+        width: 150px;
+    }
+}
+@media screen and (max-width: 1040px){
+        .line-menu{
+            width: 100px;
+        }
+}
+@media screen and (max-width: 1000px){
+    .line-menu{
         display: none;
     }
 }
-
 
 @media screen and (max-width: 935px){
     .line-menu{
         display: none;
     }
     #body-home{
+        height: 80%;
         background-image: url('../images/home/background-home-tablet.jpg');
-        background-size: 935px 768px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     section{
         flex-direction: column;
