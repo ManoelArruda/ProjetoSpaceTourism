@@ -293,7 +293,6 @@ section{
         flex-direction: column;
         display: none;
         position: absolute;
-        border-color: aqua;
     }
     nav ul li{
         background: rgb(31, 30, 30);
