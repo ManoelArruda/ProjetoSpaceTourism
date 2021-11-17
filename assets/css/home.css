@@ -284,7 +284,7 @@ section{
     .menu{
         width: 0;
         height: 0;
-        margin-right: 110px;
+        margin-right: 50px;
     }
     nav{
         margin-right: 130px;
@@ -299,7 +299,7 @@ section{
         width: 150px;
  }
     .btn, .active{
-        height: 45px;
+        height: 60px;
     }
 }
 
