@@ -6,6 +6,8 @@
 }
 
 /* INICIO CSS PAGINA HOME*/
+
+/* CABEÇALHO */
 html{
     height: 100%;
 }
@@ -15,7 +17,6 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* CABEÇALHO */
 header{
     width: 100%;
     height: 20%;
@@ -25,7 +26,6 @@ header{
 }
 .top{
     width: 100%;
-    height: 50%px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -306,39 +306,3 @@ section{
 /* FIM MODO MOBILE PAGINA HOME*/
 
 /* FIM CSS PAGINA HOME*/
-
-/* ------------------------------------------------------------------------------------------------------ */
-
-/* INICIO CSS PAGINA DESTINATION*/
-
-#body-destination{
-    background-image: url('../images/destination/background-destination-desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* FIM CSS PAGINA DESTINATION*/
-
-/* ------------------------------------------------------------------------------------------------------ */
-
-/* INICIO CSS PAGINA CREW */
-
-#body-crew{
-    background-image: url('../images/crew/background-crew-desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* FIM CSS PAGINA CREW */
-
-/* ------------------------------------------------------------------------------------------------------ */
-
-/* INICIO CSS PAGINA TECHNOLOGY*/
-
-#body-technology{
-    background-image: url('../images/technology/background-technology-desktop.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* FIM CSS PAGINA TECHNOLOGY*/
