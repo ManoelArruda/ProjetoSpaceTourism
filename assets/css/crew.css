@@ -180,7 +180,6 @@ nav ul{
     .menu{
         width: 0;
         height: 0;
-        margin-right: 110px;
     }
     nav{
         margin-right: 130px;
@@ -192,10 +191,10 @@ nav ul{
     }
     nav ul li{
         background: rgb(31, 30, 30);
-        width: 390px;
+        width: 150px;
  }
     .btn, .active{
-        height: 45px;
+        height: 60px;
     }
 }
 
