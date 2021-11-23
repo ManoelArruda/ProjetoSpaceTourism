@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* INICIO CSS PAGINA HOME*/
+/* INICIO CSS DESTINATION (MENU) */
 
 /* CABEÇALHO */
 html{
@@ -99,9 +99,17 @@ nav ul{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-/* FIM CABEÇALHO */
+/* FIM DESTINATION MENU */
 
-/* INICIO MODO TABLET PAGINA HOME */
+
+/* INICIO CSS DESTINATION MOON */
+
+
+
+/* FIM CSS DESTINATION MOON */
+
+
+/* INICIO MODO TABLET PAGINA DESTINATION LINHA MENU */
 @media screen and (min-width: 671px)  {
     .menu-mobile{
         display: none;
@@ -165,9 +173,9 @@ nav ul{
     }
 }
 
-/* FIM MODO TABLET PAGINA HOME*/
+/* FIM MODO TABLET PAGINA DESTINATION LINHA MENU */
 
-/* INICIO MODO MOBILE PAGINA HOME*/
+/* INICIO MODO MOBILE PAGINA DESTINATION */
 
 @media screen and (min-width: 300px) and (max-width: 670px)  {
     #body-destination{
@@ -196,7 +204,5 @@ nav ul{
     }
 }
 
-/* FIM MODO MOBILE PAGINA HOME*/
-
-/* FIM CSS PAGINA HOME*/
+/* FIM MODO MOBILE PAGINA DESTINATION*/
 

@@ -1,4 +1,5 @@
-/* MENU*/
+/* INICIO MENU DESKTOP */
+
 const currentLocation = location.href;
 const menuItem = document.querySelectorAll('#itemMenu');
 
@@ -8,7 +9,10 @@ menuItem.forEach((item, index) =>{
     menuItem[index].className = "active"
   }
 })
-/* MENU*/
+
+/* FIM MENU DESKTOP */
+
+/* INICIO MENU MOBILE */
 
 window.onload = function(){
   document.querySelector(".menu-mobile").addEventListener("click", function(){
@@ -20,7 +24,7 @@ window.onload = function(){
   });
 };
 
-
+/* FIM MENU MOBILE */
 
 
 
