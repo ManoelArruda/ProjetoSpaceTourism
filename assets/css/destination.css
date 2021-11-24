@@ -8,6 +8,7 @@
 /* INICIO CSS DESTINATION (MENU) */
 
 /* CABEÇALHO */
+
 html{
     height: 100%;
 }
@@ -24,6 +25,9 @@ header{
     justify-content: center;
     border: none;
 }
+
+/* FIM CABEÇALHO */
+
 .top{
     width: 100%;
     display: flex;
@@ -62,13 +66,13 @@ header{
     backdrop-filter: blur( 30px );
     -webkit-backdrop-filter: blur( 30px );
 }
-nav ul li{    
+.menu nav ul li{    
     list-style-type: none;
     text-decoration: none;
     margin-left: 20px;
     margin-right: 20px;
 }
-nav ul{
+.menu nav ul{
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -101,20 +105,124 @@ nav ul{
 }
 /* FIM DESTINATION MENU */
 
+/*===========================================================================================================*/
 
 /* INICIO CSS DESTINATION MOON */
 
-
-
+.submenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.submenu nav ul li{    
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.submenu nav ul{
+    display: flex;
+    align-items: center;
+}
+.submenu-btn, .submenu-active{
+    text-decoration: none;
+    color: #ffffff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.submenu-active, .submenu-btn:hover{
+    border-bottom: 4px solid #ffffff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title-moon{
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 30px;
+}
+.inf-moon{
+    border: none;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.content-right{
+    border: none;
+    margin-top: 50px;
+    width: 100%;
+}
+.content-left img{
+    margin-top: 80px;
+    height: 400px;
+    width: 400px;
+    border: none;
+}
+.content-left{
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitle-moon{
+    border: none;
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.description-moon{
+    border: none;
+    color: #d1d4e7;
+    width: 70%;
+    font-size: 17px;
+}
+.title-distance-time-moon{
+    border: none;
+    color: #d1d4e7;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.subtitle-distance-time-moon{
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.inf-distance-time-moon{
+    border: none;
+    width: 70%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.line-moon{
+    height: 2px;
+    background-color: #ffffff25;
+    width: 70%;
+    border: none;
+    margin-top: 50px;
+}
 /* FIM CSS DESTINATION MOON */
 
+/*===========================================================================================================*/
 
 /* INICIO MODO TABLET PAGINA DESTINATION LINHA MENU */
 @media screen and (min-width: 671px)  {
     .menu-mobile{
         display: none;
-    }
-    
+    } 
 }
 @media screen and (max-width: 1290px){
     .line-menu{
@@ -175,6 +283,8 @@ nav ul{
 
 /* FIM MODO TABLET PAGINA DESTINATION LINHA MENU */
 
+/*===========================================================================================================*/
+
 /* INICIO MODO MOBILE PAGINA DESTINATION */
 
 @media screen and (min-width: 300px) and (max-width: 670px)  {
@@ -187,15 +297,15 @@ nav ul{
         width: 0;
         height: 0;
     }
-    nav{
+    .menu nav{
         margin-right: 130px;
     }
-    nav ul{    
+    .menu nav ul{    
         flex-direction: column;
         display: none;
         position: absolute;
     }
-    nav ul li{
+    .menu nav ul li{
         background: rgb(31, 30, 30);
         width: 150px;
  }

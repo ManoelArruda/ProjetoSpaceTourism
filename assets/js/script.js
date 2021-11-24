@@ -12,6 +12,24 @@ menuItem.forEach((item, index) =>{
 
 /* FIM MENU DESKTOP */
 
+/* =============================================================================================== */
+
+/* INICIO SUBMENU PAGINA DESTINATION */
+
+const currentlocation = location.href;
+const submenuItem = document.querySelectorAll('#itemSubmenu');
+
+submenuItem.forEach((item, index) =>{
+	console.log(item)
+  if(submenuItem[index].href === currentlocation){
+    submenuItem[index].className = "submenu-active"
+  }
+})
+
+/* FIM SUBMENU PAGINA DESTINATION */
+
+/* =============================================================================================== */
+
 /* INICIO MENU MOBILE */
 
 window.onload = function(){
