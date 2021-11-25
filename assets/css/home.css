@@ -42,7 +42,7 @@ header{
 .line-menu{
     height: 2px;
     background-color: #ffffff25;
-    width: 40%;
+    width: 400px;
     border: none;
     margin-left: 200px;
     z-index: 1;
@@ -160,7 +160,6 @@ section{
     .menu-mobile{
         display: none;
     }
-    
 }
 @media screen and (max-width: 1290px){
     .line-menu{

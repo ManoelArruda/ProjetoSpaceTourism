@@ -218,7 +218,20 @@ header{
 
 /*===========================================================================================================*/
 
-/* INICIO MODO TABLET PAGINA DESTINATION LINHA MENU */
+/* INICIO MODO TABLET PAGINA DESTINATION */
+
+/* SUBMENU */
+
+@media screen and (max-width: 820px)  {
+    .submenu nav ul li{    
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+/* FIM SUB MENU*/
+
+
 @media screen and (min-width: 671px)  {
     .menu-mobile{
         display: none;
@@ -279,6 +292,9 @@ header{
     .btn, .active{
         height: 100px;
     }
+    .content-left img{
+        margin-left: 20px;
+    }
 }
 
 /* FIM MODO TABLET PAGINA DESTINATION LINHA MENU */
@@ -308,9 +324,39 @@ header{
     .menu nav ul li{
         background: rgb(31, 30, 30);
         width: 150px;
- }
+    }
     .btn, .active{
         height: 60px;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content-right{
+        margin-top: 0;
+    }
+    .subtitle-moon{
+        font-size: 35px;
+    }
+    .inf-distance-time-moon{
+        margin-top: 10px;
+    }
+    .line-moon{
+        margin-top: 15px;
+    }
+    .submenu{
+        margin-top: -50px;
+    }
+    .content-left img{
+        margin-left: 0;
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
+    .title-moon{
+        font-size: 15px;
+    }
+    .subtitle-distance-time-moon{
+        font-size: 15px;
     }
 }
 
