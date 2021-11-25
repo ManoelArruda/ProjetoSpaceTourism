@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/* INICIO CSS PAGINA HOME*/
+/* INICIO CSS PAGINA CREW*/
 
 /* CABEÇALHO */
 html{
@@ -99,16 +99,15 @@ nav ul{
     margin-bottom: 10px;
     margin-top: 10px;
 }
-/* FIM CABEÇALHO */
+/* FIM CABEÇALHO PAGINA CREW */
 
 
 
-/* INICIO MODO TABLET PAGINA HOME */
+/* INICIO MODO TABLET PAGINA CREW */
 @media screen and (min-width: 671px)  {
     .menu-mobile{
         display: none;
     }
-    
 }
 @media screen and (max-width: 1290px){
     .line-menu{
@@ -167,9 +166,9 @@ nav ul{
     }
 }
 
-/* FIM MODO TABLET PAGINA HOME*/
+/* FIM MODO TABLET PAGINA CREW*/
 
-/* INICIO MODO MOBILE PAGINA HOME*/
+/* INICIO MODO MOBILE PAGINA CREW*/
 
 @media screen and (min-width: 300px) and (max-width: 670px)  {
     #body-crew{
@@ -198,7 +197,7 @@ nav ul{
     }
 }
 
-/* FIM MODO MOBILE PAGINA HOME*/
+/* FIM MODO MOBILE PAGINA CREW*/
 
-/* FIM CSS PAGINA HOME*/
+/* FIM CSS PAGINA CREW*/
 
