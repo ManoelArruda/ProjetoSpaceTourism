@@ -358,6 +358,11 @@ header{
     .subtitle-distance-time-moon{
         font-size: 15px;
     }
+    .description-moon{
+        margin-top: 10px;
+        width: 90%;
+        font-size: 15px;
+    }
 }
 
 /* FIM MODO MOBILE PAGINA DESTINATION*/
