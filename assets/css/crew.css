@@ -132,7 +132,6 @@ nav ul{
     margin-top: 10px;
     margin-left: 200px;
     border: 1px solid red;
-    width: 50%;
 }
 .inf-engineer{
     border: none;
@@ -145,25 +144,66 @@ nav ul{
     flex-wrap: wrap;
     width: 50%;
 }
-.circle{
-    width: 20px;
-    height: 20px;
-    background: #d1d4e7;
-    margin-left: 200px;
-    border-radius: 10px;
-    margin-top: 200px;
-}
 .content-right img{
-    height: 83.9vh;
+    height: 105%;
     border: 1px solid red;
     margin-right: 100px;
 }
+.menu-circle{
+    display: flex;
+    border: 1px solid rgb(208, 255, 0);
+    margin-top: -20px;
+}
+.menu-circle nav ul li a{
+    border: 1px solid red;
+    text-decoration: none;
+}
+
 
 /* FIM CABEÇALHO PAGINA CREW */
 
 
-
 /* INICIO MODO TABLET PAGINA CREW */
+@media screen and (max-width: 970px)  {
+    .content-right img{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 910px)  {
+    .subtitle,.engineer{
+        font-size: 180%;
+    }
+}
+@media screen and (max-width: 810px)  {
+    .subtitle,.engineer{
+        font-size: 120%;
+    }
+    .content-right img{
+        width: 400px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 710px)  {
+    .content-right img{
+        width: 350px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1110px)  {
+    .content-right img{
+        margin-right: 0;
+    }
+    .engineer,
+    .subtitle,
+    .title{
+        margin-left: 100px;
+        width: 85%;
+    }
+    .inf-engineer{
+        margin-left: 100px;
+        width: 60%;
+    }
+}
 @media screen and (min-width: 671px)  {
     .menu-mobile{
         display: none;
@@ -230,7 +270,45 @@ nav ul{
 
 /* INICIO MODO MOBILE PAGINA CREW*/
 
+@media screen and (max-width: 505px){
+    .engineer,
+    .inf-engineer,
+    .subtitle,
+    .title{
+        margin-top: 10%;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .subtitle{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 710px){
+    .menu-circle{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 610px){
+    .content-right img{
+        width: 280px;
+    }
+    .menu-circle{
+        margin-top: -10%;
+        justify-content: center;
+    }
+}
 @media screen and (min-width: 300px) and (max-width: 670px)  {
+    .engineer,
+    .inf-engineer,
+    .subtitle,
+    .title{
+        margin-left: 10px;
+    }
+    .inf-engineer{
+        width: 80%;
+    }
     #body-crew{
         background-image: url('../images/crew/background-crew-mobile.jpg');
         background-size: 100% 100%;
@@ -240,15 +318,15 @@ nav ul{
         width: 0;
         height: 0;
     }
-    nav{
+    .menu nav{
         margin-right: 130px;
     }
-    nav ul{    
+    .menu nav ul{    
         flex-direction: column;
         display: none;
         position: absolute;
     }
-    nav ul li{
+    .menu nav ul li{
         background: rgb(31, 30, 30);
         width: 150px;
  }

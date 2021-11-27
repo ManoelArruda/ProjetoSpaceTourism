@@ -8,7 +8,7 @@ menuItem.forEach((item, index) =>{
   if(menuItem[index].href === currentLocation){
     menuItem[index].className = "active"
   }
-})
+});
 
 /* FIM MENU DESKTOP */
 
@@ -44,6 +44,26 @@ window.onload = function(){
 
 /* FIM MENU MOBILE */
 
+/* INICIO SUBMENU PAGINA CREW */
+
+const currentlocationCrew = location.href;
+const submenuItemCrew = document.querySelectorAll('#subMenuCrew');
+
+submenuItemCrew.forEach((item, index) =>{
+	console.log(item)
+  if(submenuItemCrew[index].href === currentlocationCrew){
+    submenuItemCrew[index].className = "circle"
+  }
+})
+    
+   //   document.querySelector(".btn-circle").style.backgroundColor = 'blue';
+    
+  
+
+
+/* FIM SUBMENU PAGINA CREW */
+
+/* =============================================================================================== */
 
 
 
