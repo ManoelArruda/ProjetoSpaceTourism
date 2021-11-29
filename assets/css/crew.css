@@ -102,7 +102,6 @@ nav ul{
 .container{
     display: flex;
     height: 100%;
-    border: 1px solid red;
 }
 .title{
     color: #ffffff;
@@ -111,7 +110,6 @@ nav ul{
     font-size: 20px;
     margin-top: 30px;
     margin-left: 200px;
-    border: 1px solid red;
     width: 50%;
 }
 .subtitle{
@@ -121,7 +119,6 @@ nav ul{
     text-transform: uppercase;
     margin-top: 100px;
     margin-left: 200px;
-    border: 1px solid red;
     width: 50%;
 }
 .engineer{
@@ -131,7 +128,6 @@ nav ul{
     text-transform: uppercase;
     margin-top: 10px;
     margin-left: 200px;
-    border: 1px solid red;
 }
 .inf-engineer{
     border: none;
@@ -139,31 +135,56 @@ nav ul{
     color: #d1d4e7;
     margin-top: 30px;
     margin-left: 200px;
-    border: 1px solid red;
     text-align: justify;
     flex-wrap: wrap;
     width: 50%;
 }
 .content-right img{
     height: 105%;
-    border: 1px solid red;
     margin-right: 100px;
 }
 .menu-circle{
     display: flex;
-    border: 1px solid rgb(208, 255, 0);
     margin-top: -20px;
+    margin-left: 180px;
 }
-.menu-circle nav ul li a{
-    border: 1px solid red;
+.menu-circle nav ul li{    
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.btn-circle, .circle-active{
     text-decoration: none;
+    background-color: #d1d4e7;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
-
+.circle-active{
+    background-color: rgb(255, 255, 255);
+}
+.btn-link{
+    height: 20px;
+    width: 20px;
+}
 
 /* FIM CABEÇALHO PAGINA CREW */
 
 
 /* INICIO MODO TABLET PAGINA CREW */
+@media screen and (max-width: 970px){
+    .engineer,
+    .inf-engineer,
+    .subtitle,
+    .title{
+        margin-top: 10%;
+    }
+    .title{
+        font-size: 15px;
+    }
+    .subtitle{
+        font-size: 13px;
+    }
+}
 @media screen and (max-width: 970px)  {
     .content-right img{
         margin-left: 0;
@@ -180,7 +201,7 @@ nav ul{
     }
     .content-right img{
         width: 400px;
-        height: auto;
+        height: 105%;
     }
 }
 @media screen and (max-width: 710px)  {
@@ -196,11 +217,14 @@ nav ul{
     .engineer,
     .subtitle,
     .title{
-        margin-left: 100px;
+        margin-left: 30px;
         width: 85%;
     }
+    .menu-circle{
+        margin-left: 10px;
+    }
     .inf-engineer{
-        margin-left: 100px;
+        margin-left: 30px;
         width: 60%;
     }
 }
@@ -270,23 +294,11 @@ nav ul{
 
 /* INICIO MODO MOBILE PAGINA CREW*/
 
-@media screen and (max-width: 505px){
-    .engineer,
-    .inf-engineer,
-    .subtitle,
-    .title{
-        margin-top: 10%;
-    }
-    .title{
-        font-size: 15px;
-    }
-    .subtitle{
-        font-size: 13px;
-    }
-}
+
 @media screen and (max-width: 710px){
     .menu-circle{
-        width: 100%;
+        width: 80%;
+        margin: 0;
         justify-content: center;
     }
 }
@@ -313,6 +325,27 @@ nav ul{
         background-image: url('../images/crew/background-crew-mobile.jpg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center ;
+    }
+    .engineer,
+    .inf-engineer,
+    .subtitle,
+    .title{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .content-right img{
+        width: 250px;
+        height: 300px;
+    }
+    .menu-circle{
+        margin-top: -7px;
     }
     .menu{
         width: 0;

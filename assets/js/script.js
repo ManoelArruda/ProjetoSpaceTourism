@@ -47,12 +47,12 @@ window.onload = function(){
 /* INICIO SUBMENU PAGINA CREW */
 
 const currentlocationCrew = location.href;
-const submenuItemCrew = document.querySelectorAll('#subMenuCrew');
+const submenuItemCrew = document.querySelectorAll('#itemSubMenuCrew');
 
 submenuItemCrew.forEach((item, index) =>{
 	console.log(item)
   if(submenuItemCrew[index].href === currentlocationCrew){
-    submenuItemCrew[index].className = "circle"
+    submenuItemCrew[index].className = "circle-active"
   }
 })
     
