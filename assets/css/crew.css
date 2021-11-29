@@ -297,7 +297,7 @@ nav ul{
 
 @media screen and (max-width: 710px){
     .menu-circle{
-        width: 80%;
+        width: 100%;
         margin: 0;
         justify-content: center;
     }
