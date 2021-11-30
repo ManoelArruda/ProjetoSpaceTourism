@@ -290,8 +290,14 @@ header{
     .btn, .active{
         height: 60px;
     }
-    .content-left, .menu-circle, .title, .subtitle, .name-technology, .inf-technology{
+    .menu-circle, .title, .subtitle, .name-technology, .inf-technology{
         margin-left: 0;
+    }
+    .content-left{
+        margin-left: -80px;
+    }
+    .content-right{
+        margin-left: -80px;
     }
     .content-right img{
         width: 180px;
@@ -303,9 +309,15 @@ header{
         font-size: 23px;
     }
     .btn-link,.circle-active{
-        width: 50px;
-        height: 50px;
-        border-radius: 25px;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    .btn-circle{
+        font-size: 20px;
+    }
+    .menu-circle{
+        width: 30px;
     }
 }
 
