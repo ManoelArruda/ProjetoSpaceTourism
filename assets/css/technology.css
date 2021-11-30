@@ -160,18 +160,19 @@ header{
     color: #d1d4e7;
 }
 .content-right img{
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
 
 }
 .content-left{
-    width: 40%;
+    width: 60%;
 }
+
 .content-right{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    justify-content: right;
+    width: 30%;
 }
 .content-right, .content-left{
     border: 1px solid red;
@@ -220,6 +221,17 @@ header{
         display: none;
     }
 }
+@media screen and (max-width: 1100px){
+    .content-right img{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 810px){
+    .content-left, .menu-circle, .title, .subtitle, .name-technology, .inf-technology{
+        margin-left: 50px;
+    }
+}
 @media screen and (max-width: 935px){
     .line-menu{
         display: none;
@@ -228,6 +240,13 @@ header{
         background-image: url('../images/technology/background-technology-tablet.jpg');
         background-size: 100% 100%;
         background-repeat: no-repeat;
+    }
+    .content-right img{
+        width: 200px;
+        height: 300px;
+    }
+    .content-right{
+        width: 25%;
     }
     .menu{
         width: 550px;
@@ -267,9 +286,26 @@ header{
     .menu nav ul li{
         background: rgb(31, 30, 30);
         width: 150px;
- }
+    }
     .btn, .active{
         height: 60px;
+    }
+    .content-left, .menu-circle, .title, .subtitle, .name-technology, .inf-technology{
+        margin-left: 0;
+    }
+    .content-right img{
+        width: 180px;
+        height: 280px;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .name-technology{
+        font-size: 23px;
+    }
+    .btn-link,.circle-active{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
     }
 }
 

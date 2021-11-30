@@ -55,11 +55,6 @@ submenuItemCrew.forEach((item, index) =>{
     submenuItemCrew[index].className = "circle-active"
   }
 })
-    
-   //   document.querySelector(".btn-circle").style.backgroundColor = 'blue';
-    
-  
-
 
 /* FIM SUBMENU PAGINA CREW */
 
