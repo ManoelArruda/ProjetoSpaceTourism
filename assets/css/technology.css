@@ -127,9 +127,13 @@ header{
     border-radius: 50px;
     background-color: transparent;
     margin: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #fff;
 }
 .circle-active{
     background-color: #ffffff;
+    color: #232324;
 }
 .title{
     color: #ffffff;
