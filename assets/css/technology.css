@@ -110,7 +110,6 @@ header{
     align-items: center;
     margin-left: 190px;
     margin-top: 200px;
-    border: 1px solid red;
 }
 .menu-circle nav ul li{
     list-style-type: none;
@@ -173,9 +172,6 @@ header{
     align-items: center;
     justify-content: right;
     width: 30%;
-}
-.content-right, .content-left{
-    border: 1px solid red;
 }
 /* FIM CABEÇALHO */
 
@@ -290,8 +286,12 @@ header{
     .btn, .active{
         height: 60px;
     }
-    .menu-circle, .title, .subtitle, .name-technology, .inf-technology{
+    .title, .name-technology, .inf-technology{
         margin-left: 0;
+    }
+    .menu-circle, .subtitle{
+        margin-left: 0;
+        margin-top: 100px;
     }
     .content-left{
         margin-left: -80px;
