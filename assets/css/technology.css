@@ -289,6 +289,9 @@ header{
     .title, .name-technology, .inf-technology{
         margin-left: 0;
     }
+    .title{
+        font-size: 20px;
+    }
     .menu-circle, .subtitle{
         margin-left: 0;
         margin-top: 100px;
