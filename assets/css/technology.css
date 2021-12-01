@@ -300,8 +300,8 @@ header{
         margin-left: -80px;
     }
     .content-right img{
-        width: 180px;
-        height: 280px;
+        width: 150px;
+        height: 250px;
         justify-content: center;
         margin-top: 150px;
     }
@@ -317,6 +317,7 @@ header{
         font-size: 20px;
     }
     .menu-circle{
+        margin-left: 10px;
         width: 30px;
     }
 }
