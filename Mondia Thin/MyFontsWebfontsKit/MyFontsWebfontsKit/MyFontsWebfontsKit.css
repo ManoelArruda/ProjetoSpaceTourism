@@ -1,0 +1,27 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4232503, 2021-12-01T11:33:21-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MondiaThin by Nasir Udin
+ * URL: https://www.myfonts.com/fonts/nasir-udin/mondia/thin/
+ * Copyright: Copyright (c) 2020 by Nasir Udin. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+
+  
+@font-face {
+  font-family: "MondiaThin";
+  src: url('webFonts/MondiaThin/font.woff2') format('woff2'), url('webFonts/MondiaThin/font.woff') format('woff');
+}
+
