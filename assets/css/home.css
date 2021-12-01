@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+    font-family: "MondiaThin";
+    src: url('webFonts/MondiaThin/font.woff2') format('woff2'), url('webFonts/MondiaThin/font.woff') format('woff');
+  }
 /* INICIO CSS PAGINA HOME*/
 
 /* CABEÇALHO */

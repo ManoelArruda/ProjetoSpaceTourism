@@ -44,6 +44,10 @@ window.onload = function(){
 
 /* FIM MENU MOBILE */
 
+
+/* =============================================================================================== */
+
+
 /* INICIO SUBMENU PAGINA CREW */
 
 const currentlocationCrew = location.href;
@@ -61,7 +65,15 @@ submenuItemCrew.forEach((item, index) =>{
 /* =============================================================================================== */
 
 
+const currentlocationTech = location.href;
+const submenuItemTech = document.querySelectorAll('#itemSubMenuTec');
 
+submenuItemTech.forEach((item, index) =>{
+	console.log(item)
+  if(submenuItemTech[index].href === currentlocationTech){
+    submenuItemTech[index].className = "circle-active-tech"
+  }
+})
 
 
 
